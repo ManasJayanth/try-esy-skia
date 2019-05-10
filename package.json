@@ -13,9 +13,9 @@
   "dependencies": {
     "ocaml": "*",
     "esy-skia": "*",
-    "yarn-pkg-config": "esy-ocaml/yarn-pkg-config#cca65f99674ed2d954d28788edeb8c57fada5ed0"
+    "yarn-pkg-config": "prometheansacrifice/yarn-pkg-config#670fb0100d51e47d171c407f6d91c07817435df2"
   },
   "resolutions": {
-    "esy-skia": "link:../esy-skia"
+    "esy-skia": "prometheansacrifice/esy-skia#1ca67ef462cb9afff95a66999aa428dcb18cd2d4"
   }
 }

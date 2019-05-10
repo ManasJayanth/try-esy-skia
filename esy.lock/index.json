@@ -1,17 +1,17 @@
 {
-  "checksum": "6afc7b6042da7603fea8f751223b5209",
+  "checksum": "4dd683d4cdc097b85d188a229c0da373",
   "root": "try-esy-skia@link-dev:./package.json",
   "node": {
-    "yarn-pkg-config@github:esy-ocaml/yarn-pkg-config#cca65f99674ed2d954d28788edeb8c57fada5ed0@d41d8cd9": {
+    "yarn-pkg-config@github:prometheansacrifice/yarn-pkg-config#670fb0100d51e47d171c407f6d91c07817435df2@d41d8cd9": {
       "id":
-        "yarn-pkg-config@github:esy-ocaml/yarn-pkg-config#cca65f99674ed2d954d28788edeb8c57fada5ed0@d41d8cd9",
+        "yarn-pkg-config@github:prometheansacrifice/yarn-pkg-config#670fb0100d51e47d171c407f6d91c07817435df2@d41d8cd9",
       "name": "yarn-pkg-config",
       "version":
-        "github:esy-ocaml/yarn-pkg-config#cca65f99674ed2d954d28788edeb8c57fada5ed0",
+        "github:prometheansacrifice/yarn-pkg-config#670fb0100d51e47d171c407f6d91c07817435df2",
       "source": {
         "type": "install",
         "source": [
-          "github:esy-ocaml/yarn-pkg-config#cca65f99674ed2d954d28788edeb8c57fada5ed0"
+          "github:prometheansacrifice/yarn-pkg-config#670fb0100d51e47d171c407f6d91c07817435df2"
         ]
       },
       "overrides": [],
@@ -29,8 +29,9 @@
       },
       "overrides": [],
       "dependencies": [
-        "yarn-pkg-config@github:esy-ocaml/yarn-pkg-config#cca65f99674ed2d954d28788edeb8c57fada5ed0@d41d8cd9",
-        "ocaml@4.7.1004@d41d8cd9", "esy-skia@link:../esy-skia"
+        "yarn-pkg-config@github:prometheansacrifice/yarn-pkg-config#670fb0100d51e47d171c407f6d91c07817435df2@d41d8cd9",
+        "ocaml@4.7.1004@d41d8cd9",
+        "esy-skia@github:prometheansacrifice/esy-skia#1ca67ef462cb9afff95a66999aa428dcb18cd2d4@d41d8cd9"
       ],
       "devDependencies": []
     },
@@ -48,11 +49,18 @@
       "dependencies": [],
       "devDependencies": []
     },
-    "esy-skia@link:../esy-skia": {
-      "id": "esy-skia@link:../esy-skia",
+    "esy-skia@github:prometheansacrifice/esy-skia#1ca67ef462cb9afff95a66999aa428dcb18cd2d4@d41d8cd9": {
+      "id":
+        "esy-skia@github:prometheansacrifice/esy-skia#1ca67ef462cb9afff95a66999aa428dcb18cd2d4@d41d8cd9",
       "name": "esy-skia",
-      "version": "link:../esy-skia",
-      "source": { "type": "link", "path": "../esy-skia" },
+      "version":
+        "github:prometheansacrifice/esy-skia#1ca67ef462cb9afff95a66999aa428dcb18cd2d4",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:prometheansacrifice/esy-skia#1ca67ef462cb9afff95a66999aa428dcb18cd2d4"
+        ]
+      },
       "overrides": [],
       "dependencies": [
         "esy-libjpeg-turbo@github:prometheansacrifice/libjpeg-turbo#50e8e32c48@d41d8cd9",
